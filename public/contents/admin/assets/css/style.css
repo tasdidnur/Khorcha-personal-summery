@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+img{
+  border: none;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.clr{
+  clear: both;
+}
+
+.card_header_title{
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.card_header_title i{
+  font-size: 18px;
+}
+
+.card_button_part{
+  text-align: right!important;
+  font-weight: bold!important;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.col_form_label{
+  text-align: right;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  padding-right: 0px;
+  margin-top: -5px;
+}
+
+.req_star{
+  color: #d63031;
+  font-weight: bold;
+}
+
+.custom-view-table{
+
+}
+.custom-view-table tr td:first-child{
+  text-align: right;
+  width: 30%;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+.custom-view-table tr td:last-child{
+  text-align: left;
+  width: 69%;
+}
+.has-error .form_control{
+  border: 1px solid #FF0000;
+}
+.has-error .invalid-feedback{
+  color: #FF0000;
+  display: block;
+  font-style: italic;
+}
+@media print {
+  .dataTables_length,.dataTables_filter,.dataTables_info,.dataTables_paginate,.paging_simple_numbers {display: none;}
+}
